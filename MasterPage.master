@@ -1,0 +1,76 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+       <span style="font-size: 24pt; color: darkslategray; font-family: Monotype Corsiva">
+            <strong> “You have not lived today until you have done something for someone who can never repay you.”  </strong></span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Helpline no: 9118456910<br />
+            
+
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        &nbsp;
+        
+       
+
+        </br></br></br>
+        <asp:Menu ID="Menu1" runat="server" BackColor="Teal" Font-Bold="True" Font-Italic="False"
+            Font-Names="Microsoft Sans Serif" ForeColor="#400000" Orientation="Horizontal" 
+            Style="z-index: 105; left: 0px; position: absolute; top: 128px; height: 30px; width: 1367px;"><StaticMenuItemStyle ItemSpacing="10px"/>
+            <Items>
+            <asp:MenuItem Text="Home" Value="home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="ViewActivity" Value="home" NavigateUrl="~/ViewActivity.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Login"  NavigateUrl="~/Login.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="About us" NavigateUrl="~/AboutUs.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Contact Us" NavigateUrl="~/ContactUs.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Donate" NavigateUrl="~/Donate.aspx"></asp:MenuItem>
+            </Items>
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle Font-Underline="False" HorizontalPadding="10px" ItemSpacing="160px"
+                    VerticalPadding="2px" />
+            </LevelMenuItemStyles>
+        </asp:Menu>
+        <br />
+       
+        
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+       
+        <br />
+        <br />
+           
+            &nbsp;
+            <br />
+            <br />
+            <br />
+        
+         </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

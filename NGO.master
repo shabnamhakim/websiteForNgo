@@ -1,0 +1,65 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NGO.master.cs" Inherits="Student" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="/pictures/img38.jpg">
+    <form id="form1" runat="server">
+    <div>
+           <%--<marquee direction="down" id="MARQUEE1" style="z-index: 105; left: 176px; width: 200px; position: absolute; top: 0px; height: 144px"><SPAN 
+style="FONT-SIZE: 16pt; COLOR: darkmagenta; FONT-FAMILY: Monotype Corsiva" >&nbsp;&nbsp;&nbsp; 
+<BR />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+NGO</SPAN></marquee><marquee  direction="down" style="z-index: 106; left: 568px; width: 208px; position: absolute; top: 0px; height: 144px"><SPAN 
+style="FONT-SIZE: 16pt; COLOR: darkmagenta; FONT-FAMILY: Monotype Corsiva">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR 
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbssp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></marquee>--%>
+        <br />
+        <asp:Menu ID="Menu1" runat="server" Font-Names="Rockwell Extra Bold" ForeColor="DarkRed" Orientation="Horizontal" Style="padding:10px; 101; left: 4px; position: absolute;
+            top: 144px; height: 23px; width: 1389px;" Font-Bold="True" BackColor="Plum">
+            <Items>
+            <asp:MenuItem Text="Home"  Value="Home"  NavigateUrl="~/ImageGallery.aspx" ></asp:MenuItem>
+            <asp:MenuItem Text="View resume" Value="" NavigateUrl="~/ViewResumes.aspx">
+            </asp:MenuItem>
+            <asp:MenuItem Text="Social Workers" Value="" NavigateUrl="~/SocialWorkerDetails.aspx"></asp:MenuItem>
+
+            <asp:MenuItem Text="View Blogs" Value="" NavigateUrl="~/ViewBlog.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Activity Update" Value="" NavigateUrl="~/ActivityUpdate.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Log Out" Value="Log Out" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+            </Items>
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle Font-Underline="False" HorizontalPadding="10px" ItemSpacing="160px"
+                    VerticalPadding="2px" />
+            </LevelMenuItemStyles>
+        </asp:Menu>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-size: 16pt; color: darkmagenta; font-family: Monotype Corsiva">
+           </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp;<span style="font-size: 16pt; color: darkmagenta; font-family: Monotype Corsiva"></span>&nbsp;&nbsp;<br />
+        <br />
+           <span style="color: rgb(24, 24, 24); font-family: Merriweather, Georgia, serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);"><span style="font-size: 24pt; color: darkslategray; font-family: Monotype Corsiva">
+            <strong> “There is no exercise better for the heart than reaching down and lifting people up.” </strong></span>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /></span><br />
+        &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: darkmagenta">
+            &nbsp; &nbsp; &nbsp; </span><strong><span style="font-size: 36pt; color: darkmagenta;
+                font-family: Monotype Corsiva"><br />
+            
+            </span></strong>
+        <br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

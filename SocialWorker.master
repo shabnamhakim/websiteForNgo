@@ -1,0 +1,71 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SocialWorker.master.cs" Inherits="Instructor" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body background="/pictures/img26.jpg">
+    <form id="form1" runat="server">
+    <div>
+        <%--<asp:Image ID="Image4" runat="server" ImageUrl="~/pictures/img29.jpg"
+            Style="z-index: 101; left: 0px; position: absolute; top: -1px; height: 27px; width: 1392px;" />--%>
+        
+        &nbsp;<br />
+        
+        <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick"
+            Orientation="Horizontal" Style="z-index: 104; left: 4px; position: absolute;
+            top: 123px; height: 28px; width: 1360px;" BackColor="Silver" Font-Bold="True" Font-Names="Garamond" ForeColor="DarkOliveGreen">
+            <Items>
+              <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/SocialWorkerHome.aspx"></asp:MenuItem>
+              <asp:MenuItem Text="ListOfNgo's" Value="ListOfNgo's" NavigateUrl="~/ListOfNgo's.aspx"></asp:MenuItem>
+             
+              <asp:MenuItem Text="Blog" Value="Blog" NavigateUrl="~/Default.aspx" ></asp:MenuItem>  
+             <asp:MenuItem Text="Resume" Value="Resume" NavigateUrl="~/addResumes.aspx"></asp:MenuItem> 
+             <asp:MenuItem Text="Log Out" Value="Log Out" NavigateUrl="~/Home.aspx"></asp:MenuItem>    
+            </Items>
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle Font-Underline="False" HorizontalPadding="10px" ItemSpacing="160px"
+                    VerticalPadding="2px" />
+            </LevelMenuItemStyles>
+        </asp:Menu>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong><span style="font-size: 20pt; font-family: Monotype Corsiva">
+            <SPAN 
+style="COLOR: darkslategray">“While we do our good works let us not forget that the real solution lies in a world in which charity will have become unnecessary.” </SPAN>
+            &nbsp;&nbsp;<span style="color: #006666"><br />
+            </span></span></strong>
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>
